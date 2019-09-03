@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "MIT"}
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-
+  s.requires_arc = true
   spec.author             = { "黄药师" => "597438567@qq.com" }
   # Or just: spec.author    = "黄药师"
   # spec.authors            = { "黄药师" => "hys@juexiaotime.com" }
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/wqforever/LocationTest.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wqforever/LocationTest.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Location", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   spec.platform = :ios, "8.0"
   # spec.public_header_files = "Classes/**/*.h"
