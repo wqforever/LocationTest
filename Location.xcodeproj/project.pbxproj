@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		404448483C076C02BAF51725 /* libPods-Location.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C196083B40202EED9F68AF1 /* libPods-Location.a */; };
+		B4186E91231E64C400E7FC89 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4186E90231E64C400E7FC89 /* FirstViewController.m */; };
 		B4F5427F23176F09005D0EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5427E23176F09005D0EE2 /* AppDelegate.m */; };
 		B4F5428223176F09005D0EE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5428123176F09005D0EE2 /* ViewController.m */; };
 		B4F5428523176F09005D0EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F5428323176F09005D0EE2 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		66A7C0C8FC82D233046D5EB8 /* Pods-Location.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location.release.xcconfig"; path = "Target Support Files/Pods-Location/Pods-Location.release.xcconfig"; sourceTree = "<group>"; };
 		82800676E95825A1D6A2BEAC /* Pods-Location.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location.debug.xcconfig"; path = "Target Support Files/Pods-Location/Pods-Location.debug.xcconfig"; sourceTree = "<group>"; };
 		9C196083B40202EED9F68AF1 /* libPods-Location.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Location.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4186E8F231E64C400E7FC89 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B4186E90231E64C400E7FC89 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		B4F5427A23176F09005D0EE2 /* Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F5427D23176F09005D0EE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4F5427E23176F09005D0EE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				B4F5427E23176F09005D0EE2 /* AppDelegate.m */,
 				B4F5428023176F09005D0EE2 /* ViewController.h */,
 				B4F5428123176F09005D0EE2 /* ViewController.m */,
+				B4186E8F231E64C400E7FC89 /* FirstViewController.h */,
+				B4186E90231E64C400E7FC89 /* FirstViewController.m */,
 				B4F5428323176F09005D0EE2 /* Main.storyboard */,
 				B4F5428623176F0A005D0EE2 /* Assets.xcassets */,
 				B4F5428823176F0A005D0EE2 /* LaunchScreen.storyboard */,
@@ -153,7 +158,6 @@
 				82800676E95825A1D6A2BEAC /* Pods-Location.debug.xcconfig */,
 				66A7C0C8FC82D233046D5EB8 /* Pods-Location.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -321,6 +325,7 @@
 				B4F5428223176F09005D0EE2 /* ViewController.m in Sources */,
 				B4F5428D23176F0A005D0EE2 /* main.m in Sources */,
 				B4F5427F23176F09005D0EE2 /* AppDelegate.m in Sources */,
+				B4186E91231E64C400E7FC89 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
