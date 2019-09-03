@@ -50,8 +50,11 @@ Pod::Spec.new do |spec|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-  s.requires_arc = true
+
+  spec.requires_arc = true
+
   spec.author             = { "黄药师" => "597438567@qq.com" }
+
   # Or just: spec.author    = "黄药师"
   # spec.authors            = { "黄药师" => "hys@juexiaotime.com" }
   # spec.social_media_url   = "https://twitter.com/黄药师"
@@ -92,7 +95,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Location", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.platform = :ios, "8.0"
+  spec.platform = :ios, "9.0"
   # spec.public_header_files = "Classes/**/*.h"
 
 
